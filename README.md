@@ -1,8 +1,19 @@
 ### Morse Code Translator
-Morse Code-Code-Translator is a program in the Python programming language that accepts text entered by the user and translates it into Morse code, replacing letters with their corresponding characters. When the program starts, the user is prompted to select the language of the text (English or Russian), and then enter the text itself.
+The Morse Code Translator is a program that accepts text entered by the user and translates it into Morse code, replacing letters with their corresponding characters. The program uses dictionaries to translate letters into Morse code. Depending on the selected language, the program selects the appropriate dictionary. Russian Russian uses a dictionary containing the encoding of English letters and numbers, and for the Russian language - a dictionary with the encoding of Russian letters and numbers.
 
-The program uses dictionaries to translate letters into Morse code. Depending on the selected language, the program selects the appropriate dictionary. Russian Russian uses a dictionary containing the encoding of English letters and numbers, and for the Russian language - a dictionary with the encoding of Russian letters and numbers.
+Here's an example of how the program works:
+`Select a language: English (eng) or Русский (rus)? eng
+Enter the text: Hello, World!
+Morse code text: .... . .-.. .-.. --- --..-- / .-- --- .-. .-.. -.. -.-.--
+`
 
-Then, the program iterates through each character of the entered text and, if the character is a letter or a number, replaces it with the corresponding Morse code sign using the appropriate dictionary. If the symbol is not a letter or a number, it remains unchanged.
+### Morse Code Decoder
+The Morse Code Decoder is a program that accepts Morse code entered by the user and translates it into text, replacing Morse code characters with their corresponding letters. The program uses dictionaries to translate Morse code characters into letters. Depending on the selected language, the program selects the appropriate dictionary. Russian Russian uses a dictionary containing the encoding of English letters and numbers, and for the Russian language - a dictionary with the encoding of Russian letters and numbers.
 
-At the end of the program, the translated text is displayed on the screen in Morse code format, where each character is replaced with its corresponding Morse code sign. Characters are separated by spaces, and words are separated by a "/" sign.
+Here's an example of how the program works:
+`Select a language: English (eng) or Русский (rus)? rus
+Введите код Морзе: -.-- --- ..- / -.-. .-. .- --. .... .. -. / ..-. --- .-. / .-.. ..- ... / ..-. --- .-. / --. .- -.. .-.. ..-. ..-. --- .-. / -.. .- ...- .-.
+Текст: ЮКРАИНА FOREVER!
+`
+
+These programs can be useful for anyone interested in learning Morse code or for anyone who needs to send and receive Morse code messages.
