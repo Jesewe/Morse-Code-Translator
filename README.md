@@ -1,21 +1,53 @@
-### Morse Code Translator
-The Morse Code Translator is a program that accepts text entered by the user and translates it into Morse code, replacing letters with their corresponding characters. The program uses dictionaries to translate letters into Morse code. Depending on the selected language, the program selects the appropriate dictionary. Russian Russian uses a dictionary containing the encoding of English letters and numbers, and for the Russian language - a dictionary with the encoding of Russian letters and numbers.
+# Morse Code Translator
 
-Here's an example of how the program works:
-```
-Select a language: English (eng) or Русский (rus)? eng
-Enter the text: Hello, World!
-Morse code text: .... . .-.. .-.. --- --..-- / .-- --- .-. .-.. -.. -.-.--
-```
+Morse Code Translator is a simple GUI application built with Python and PyQt6 that allows you to translate text to Morse code and vice versa. It supports English and Russian languages.
 
-### Morse Code Decoder
-The Morse Code Decoder is a program that accepts Morse code entered by the user and translates it into text, replacing Morse code characters with their corresponding letters. The program uses dictionaries to translate Morse code characters into letters. Depending on the selected language, the program selects the appropriate dictionary. Russian Russian uses a dictionary containing the encoding of English letters and numbers, and for the Russian language - a dictionary with the encoding of Russian letters and numbers.
+## Features
 
-Here's an example of how the program works:
-```
-Select a language: English (eng) or Русский (rus)? rus
-Введите код Морзе: -.-- --- ..- / -.-. .-. .- --. .... .. -. / ..-. --- .-. / .-.. ..- ... / ..-. --- .-. / --. .- -.. .-.. ..-. ..-. --- .-. / -.. .- ...- .-.
-Текст: ЮКРАИНА FOREVER!
-```
+- Translate text to Morse code
+- Translate Morse code to text
+- Switch between "Morse to Text" and "Text to Morse" modes
+- Choose the language (English or Russian)
+- Copy translated text to clipboard
+- Toggle between light and dark themes
 
-These programs can be useful for anyone interested in learning Morse code or for anyone who needs to send and receive Morse code messages.
+## Installation
+
+1. Clone the repository:
+
+`git clone https://github.com/Jesewe/Morse-Code-Translator.git`
+
+2. Change into the project directory:
+
+`cd Morse-Code-Translator`
+
+3. Install the required dependencies:
+
+`pip install -r requirements.txt`
+
+4. Run the application:
+
+`python main.py`
+
+## Usage
+
+1. Choose the language (English or Russian) from the drop-down menu.
+2. Enter the text or Morse code you want to translate.
+3. Click the "Translate" button to get the translation.
+4. If you want to copy the translated text, click the "Copy" button.
+5. To switch between "Morse to Text" and "Text to Morse" modes, click the "Switch Mode" button.
+6. You can also toggle between light and dark themes by clicking the "Toggle Theme" button.
+
+## Screenshots
+
+Light Theme:
+
+![Light Theme](screenshot_light.png)
+
+Dark Theme:
+
+![Dark Theme](screenshot_dark.png)
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
